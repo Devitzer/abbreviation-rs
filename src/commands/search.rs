@@ -22,5 +22,7 @@ pub fn search(abbr: &str, abbreviations: &HashMap<String, Value>) {
                 println!("Error: Unexpected data type for the abbreviation!\nCheck the value of this abbreviation in the abbreviation.json and make sure it is a String or Array.")
             }
         }
+    } else {
+        panic!("The abbreviation you entered does not exist in the abbreviation.json file!");
     }
 }
