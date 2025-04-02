@@ -3,7 +3,9 @@ use serde_json::Value;
 use std::collections::HashMap;
 
 pub fn search(abbr: &str, abbreviations: &HashMap<String, Value>) {
-    if let Some(value) = abbreviations.get(abbr) {
+    let abbr_lower = abbr.to_lowercase();
+
+    if let Some(value) = abbreviations.get(&abbr_lower) {
         match value {
             Value::String(meaning) => {
                 println!("Meaning: {}", meaning);

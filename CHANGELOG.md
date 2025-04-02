@@ -1,3 +1,9 @@
+# v0.2.1
+
+## Bug Fixes
+
+- The search command no longer requires abbreviations to be in all lowercase (no longer case sensitive)
+
 # v0.2.0
 
 ## Additions
