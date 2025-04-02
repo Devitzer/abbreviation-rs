@@ -1,3 +1,14 @@
+# v0.2.0
+
+## Additions
+
+- Added 66 new abbreviations.
+- Added new `help` command.
+
+## Changes
+
+- Made some slight tweaks to `README.md`.
+
 # v0.1.1
 
 ## Bug Fixes

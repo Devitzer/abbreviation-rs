@@ -1,6 +1,6 @@
 # Abbreviation - The de-abbreviating CLI!
 
-**The idea is simple;** you enter an abbreviation, and it outputs the meaning(s) of it.
+**The idea is simple;** you enter an abbreviation/acronym/initialism, and it outputs the meaning(s) of it.
 
 ## Get Started
 

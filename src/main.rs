@@ -22,5 +22,15 @@ fn main() {
         }
 
         commands::search::search(&args[2], &abbr);
+    } else if command == "help" {
+        let cmd: Option<&str>;
+
+        if args.len() <= 2 {
+            cmd = None;
+        } else {
+            cmd = Some(&args[2]);
+        }
+
+        commands::help::help(cmd);
     }
 }
