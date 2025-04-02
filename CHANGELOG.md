@@ -1,3 +1,15 @@
+# v0.3.0
+
+## Added
+
+- 3 new abbreviations.
+- New version command.
+
+## Changed
+
+- Changed formatting of text in some commands to include more style.
+- Updated several error messages for this style update.
+
 # v0.2.1
 
 ## Bug Fixes
