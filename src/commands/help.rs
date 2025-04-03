@@ -19,9 +19,13 @@ pub fn help(cmd: Option<&str>) {
                 }
                 "search" => {
                     println!("{}", "Search Command".bold());
-                    println!("This command searches an abbreviation from the abbreviation.json file and returns the meaning(s).");
+                    println!("This command searches an abbreviation from the abbreviations.json file and returns the meaning(s).");
                     println!("  Arguments:");
                     println!("  {}: The abbreviation to search. ({})", "abbreviation".bold(), "REQUIRED".red());
+                }
+                "list" => {
+                    println!("{}", "List Command".bold());
+                    println!("This command lists all the abbreviations in the abbreviations.json file.");
                 }
                 _ => {
                     println!("{}: \"{}\" is not a command! Type \"abbreviation help\" to get a list of commands.", "Error".red().bold(),cmd);

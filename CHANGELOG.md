@@ -1,3 +1,9 @@
+# v0.4.0
+
+## Added
+
+- New list command, lists all the abbreviations in the abbreviations.json file (in a random order, not intenionally)
+
 # v0.3.0
 
 ## Added

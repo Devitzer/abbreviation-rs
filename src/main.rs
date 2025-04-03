@@ -37,5 +37,8 @@ fn main() {
         commands::help::help(cmd);
     } else if command == "version" {
         commands::version::version();
+    } else if command == "list" {
+        let abbr = helpers::load_abbr::load_abbr();
+        commands::list::list(&abbr);
     }
 }
