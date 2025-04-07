@@ -27,6 +27,10 @@ pub fn help(cmd: Option<&str>) {
                     println!("{}", "List Command".bold());
                     println!("This command lists all the abbreviations in the abbreviations.json file.");
                 }
+                "version" => {
+                    println!("{}", "Version Command".bold());
+                    println!("This command tells you the current version of the CLI that you have installed.")
+                }
                 _ => {
                     println!("{}: \"{}\" is not a command! Type \"abbreviation help\" to get a list of commands.", "Error".red().bold(),cmd);
                 }
@@ -37,6 +41,8 @@ pub fn help(cmd: Option<&str>) {
             println!("help");
             println!("init");
             println!("search");
+            println!("version");
+            println!("list");
         }
     }
 }

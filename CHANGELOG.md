@@ -1,3 +1,9 @@
+# v0.4.1
+
+## Bug Fixes
+
+- Added missing commands to help command.
+
 # v0.4.0
 
 ## Added
