@@ -1,3 +1,5 @@
+# WARNING! THIS PROJECT IS ARCHIVED. This project is actively being converted to Go because of easier cross-compilation and easier developer experience. I had fun with Rust, but I think this is a better choice for the project.
+
 # Abbreviation - The de-abbreviating CLI!
 
 **The idea is simple;** you enter an abbreviation/acronym/initialism, and it outputs the meaning(s) of it.
